@@ -1,22 +1,24 @@
+## Привет,я не знаю как ты сюда попал но если хочешь почитать то информация внизу
+
 ```python
 
 from typing import Tuple, List, Dict
 
-class Tekky:
+class Bio:
     pass
 
 class Attributes(Tekky):
     @property
     def contact(self) -> Tuple[str, str, str]:
-        telegram = "t.me/your_telegram_username"
-        github   = "github.com/your_github_username"
-        email    = "your_email@example.com"
+        telegram = "https://t.me/Murdered_again"
+        github   = "https://github.com/helpurselfreturn"
+        email    = "stepensalex@gmail.com"
      
         return telegram, github, email
 
     @property
     def life(self) -> Tuple[List[str], int]:
-        langs = ['Polish', 'English']
+        langs = ['Polish', 'English','Russian','Ukrainian']
         age   = 17
   
         return langs, age
