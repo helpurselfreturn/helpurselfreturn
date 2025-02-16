@@ -1,16 +1,45 @@
-## Hi there 👋
+```python
 
-<!--
-**helpurselfreturn/helpurselfreturn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+from typing import Tuple, List, Dict
 
-Here are some ideas to get you started:
+class Tekky:
+    pass
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class Attributes(Tekky):
+    @property
+    def contact(self) -> Tuple[str, str, str]:
+        telegram = "t.me/your_telegram_username"
+        github   = "github.com/your_github_username"
+        email    = "your_email@example.com"
+     
+        return telegram, github, email
+
+    @property
+    def life(self) -> Tuple[List[str], int]:
+        langs = ['Polish', 'English']
+        age   = 17
+  
+        return langs, age
+ 
+    @property
+    def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str], Dict[str, Dict[str, Dict[str, str]]]]:
+        langs = {
+            'expert'      : ['Python'],
+            'intermediate': ['JS'],
+        }
+        specialities  = ['Web Development', 'Scripting', 'Automation']
+        ide           = ['VSCode']
+        pc            = {
+            'Windows': {
+                'Acer Nitro 5': {
+                    'processor': 'Core i5',
+                    'ram'      : '8GB',
+                    'gpu'      : 'RTX 3050ti'
+                }
+            }
+        }
+
+        return langs, specialities, ide, pc
+```
+
+
