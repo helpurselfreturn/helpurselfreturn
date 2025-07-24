@@ -29,7 +29,7 @@ class Attributes(Tekky):
             'expert'      : ['Python'],
             'intermediate': ['JS'],
         }
-        project       = ['@reversecard_bot','@StarsToolBot']
+        project       = ['@praimovai_bot']
         specialities  = ['Web Development', 'Scripting', 'Automation']
         ide           = ['VSCode']
         pc            = {
